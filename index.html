@@ -24,7 +24,7 @@
   nav>a{color:#999; text-decoration:none;font-size:1rem;margin-left:1rem;}
   main{background:#fff;}
   footer{text-align:center;}
-  
+
   @media (max-width: 40.063rem) {/* 小屏幕CSS */
     #toggle{display:inline-block;}
   }
@@ -53,6 +53,15 @@
   <main><section>
     <div style="text-align:center;">
         <img src="./assets/img/comingsoon.jpg" style="display:inline-block;">
+
+  {% for post in site.posts  -%}
+<div class="title"><a href="{{ post.url }}" class="hover-underline">{{ post.title }}</a></div>
+ {%- endfor %}
+<hr>
+  {% for post in site.docs  -%}
+<div class="title"><a href="{{ post.url }}" class="hover-underline">{{ post.title }}</a></div>
+ {%- endfor %}
+
     </div>
   </section></main>
   <footer><section>

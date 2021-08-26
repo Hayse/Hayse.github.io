@@ -1,10 +1,13 @@
+---
 encoding: utf-8
+lang: zh-CN
+timezone: Asia/Shanghai
+baseurl: blog.v8rs.com
 # theme: jekyll-theme-cayman
 
 title: Hayse Blog
-description: notes for my left, study and works.
 keywords: Blog,Notes
-lang: zh-CN
+description: notes for my left, study and works.
 author: Hayse
 footerText: Used pure.css and jekyll with github.pages
 
@@ -25,6 +28,29 @@ menu:
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
+
+# 集合
+collections:
+  docs:
+    permalink: /:path/
+    output: true
+  posts:
+    permalink: /:year/:month/:day/:title.html
+    output: true
+defaults:
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: default
+    onepage: true
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: default
+
+
 
 
 
