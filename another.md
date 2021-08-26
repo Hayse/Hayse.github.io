@@ -1,6 +1,6 @@
 ---
-title: new page
-description: new page
+title: another page
+description: another page with new
 tags: [life,study,worker]
 ---
 
