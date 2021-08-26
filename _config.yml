@@ -2,7 +2,7 @@
 encoding: utf-8
 lang: zh-CN
 timezone: Asia/Shanghai
-baseurl: blog.v8rs.com
+baseurl: //blog.v8rs.com
 # theme: jekyll-theme-cayman
 
 title: Hayse Blog
