@@ -32,7 +32,7 @@ extClickEffect: true
 # 集合
 collections:
   docs:
-    permalink: /:path/
+    permalink: /:path.html
     output: true
   posts:
     permalink: /:year/:month/:day/:title.html
