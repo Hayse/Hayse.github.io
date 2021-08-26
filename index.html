@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{{ site.lang | default: "zh-CN" }}">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blog for Hayse. Life, Study, Worker, all in one.">
+  <meta name="author" content="{{ site.author | default: site.github.repository_name }}" />
+  <meta name="description" content="Blog for Hayse. Life, Study, Worker, all in one.{{ site.description | default: site.github.project_tagline }}">
+  <meta name="keywords" content="{{ site.keywords | default: site.github.repository_name }}"/>
   <title>Hayse BLOG</title>
+  <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   <style>
   *{box-sizing: border-box;line-height:160%;}
   html,body{width:100%;margin:0;padding:0;background:#dbdbdb;color:#212529;font-size:100%;position:relative;}
@@ -46,12 +51,14 @@
     <p>Good good study, day day up! The journey of life, constantly seeking</p>
   </section></header>
   <main><section>
-    <div style="height:50em;">main</div>
+    <div style="text-align:center;">
+        <img src="./assets/img/comingsoon.jpg" style="display:inline-block;">
+    </div>
   </section></main>
   <footer><section>
     <a href="#top">Goto Top</a>
     <p>Used pure.css and jekyll with github.pages</p>
   </section></footer>
-  <script src="./assets/js/ggk.js" type="text/javascript"></script>
+  <script src="./assets/js/ggk.js"></script>
 </body>
 </html>

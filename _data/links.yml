@@ -1,10 +1,12 @@
-- 常用网站:
-  - title: 文科中的技术宅
-    url: https://www.townwang.com
-  - title: Auuu Nya Blog
-    url: http://mu1er.cn
-- IT:
-  - title: 文科中的技术宅
-    url: https://www.townwang.com
-  - title: Auuu Nya Blog
-    url: http://mu1er.cn
+- part: 友情交换链
+  member:
+    - name: 文科中的技术宅
+      url: https://www.townwang.com
+    - name: Auuu Nya Blog
+      url: http://mu1er.cn
+- part: 科技树
+  member:
+    - name: 文科中的技术宅
+      url: https://www.townwang.com
+    - name: Auuu Nya Blog
+      url: http://mu1er.cn

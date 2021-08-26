@@ -6,7 +6,7 @@ description: notes for my left, study and works.
 keywords: Blog,Notes
 lang: zh-CN
 author: Hayse
-footerText: 'Copyleft © MIT'
+footerText: Used pure.css and jekyll with github.pages
 
 # 菜单
 menu:

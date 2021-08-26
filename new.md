@@ -1,9 +1,9 @@
 ---
 title: new page
 description: new page
-layout: default
+tags: [life,study,worker]
 ---
 
 ![Coming soon](/assets/img/comingsoon.jpg)
-# categories: [blog]
-# tags: [blog]
+- categories: [blog]
+- tags: [blog]
