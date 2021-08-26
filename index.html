@@ -55,11 +55,11 @@
         <img src="./assets/img/comingsoon.jpg" style="display:inline-block;">
 
   {% for post in site.posts  -%}
-<div class="title"><a href="{{ post.url }}" class="hover-underline">{{ post.title }}</a></div>
+<div><a href="{{ post.url }}">{{ post.title }}</a></div>
  {%- endfor %}
 <hr>
   {% for post in site.docs  -%}
-<div class="title"><a href="{{ post.url }}" class="hover-underline">{{ post.title }}</a></div>
+<div><a href="{{ post.url }}">{{ post.title }}</a></div>
  {%- endfor %}
 
     </div>
