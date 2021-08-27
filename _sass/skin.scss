@@ -29,12 +29,11 @@ body {
   width: 100%;
   background: #dbdbdb;
   color: #212529;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   position: relative;
 }
 
-section{padding:1rem;}
+section{padding:1rem;margin:0 auto;max-width: 680px;}
 a#logo{color:#fff;text-decoration:none;font-size:1.3rem;}
 nav>a{color:#999; text-decoration:none;font-size:1rem;margin-left:1rem;}
 main{background:#fff;}
@@ -45,7 +44,6 @@ footer{text-align:center;}
   nav{border-top:1px dashed #555;}
 }
 @media (min-width: 40.063rem) {/* 平板及大屏幕CSS */
-  section{margin:0 auto;max-width: 62.5rem;}
   nav{display:inline-block;margin-top:0.4rem;float:right;}
   nav>a{margin-left:1rem;}
 }
