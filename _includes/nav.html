@@ -1,3 +1,4 @@
-{% for nav in site.docs | sort: "donav" -%}
+{%- assign docs = site.docs | sort: "donav" -%}
+{% for nav in docs -%}
     <a href="{{ nav.url }}">{{ nav.title }}</a>
 {%- endfor %}
