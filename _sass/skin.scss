@@ -41,6 +41,7 @@ a#logo{color:#fff;text-decoration:none;font-size:1.3rem;}
 nav>a{color:#999; text-decoration:none;font-size:1rem;margin-left:1rem;display:inline-block;}
 nav:first-child{margin-left:0;}
 main{background:#fff;}
+main>section{min-height:20rem;}
 footer{text-align:center;}
 
 @media (max-width: 40.063rem) {/* 小屏幕CSS */
