@@ -33,7 +33,7 @@ body {
   position: relative;
 }
 
-.highlighter-rouge{background:#333;margin:.3rem;padding:.5rem 1rem .6rem;}
+.highlighter-rouge{background:#333;margin:.5rem;padding:.2rem 1rem;}
 code.highlighter-rouge{background:#bbb;padding:.4rem;}
 
 section{padding:1rem;margin:0 auto;max-width: 680px;}
@@ -43,8 +43,8 @@ main{background:#fff;}
 footer{text-align:center;}
 
 @media (max-width: 40.063rem) {/* 小屏幕CSS */
-  a#logo{display:block;width:7rem;margin:0 auto;}
-  nav{border-top:1px dashed #555;}
+  a#logo{display:block;width:7rem;margin:0 auto .4rem;}
+  nav{border-top:1px dashed #555;padding-top:.4rem}
 }
 @media (min-width: 40.063rem) {/* 平板及大屏幕CSS */
   nav{display:inline-block;margin-top:0.4rem;float:right;}
