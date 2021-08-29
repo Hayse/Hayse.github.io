@@ -46,11 +46,11 @@ main>section{min-height:48rem;}
 footer{text-align:center;}
 
 .post-row{margin:1rem;display:flex;}
-.post-row .date{color:#666; margin-right:.5rem;}
-.post-row .title{overflow:hidden;text-overflow:ellipsis;}
+.post-row .date{color:#666; margin-right:.5rem;flex-shrink:0;}
+.post-row .title{overflow:hidden;text-overflow:ellipsis;flex-grow:1;}
 .post-row .title a{color:#007bff;text-decoration:none;}
 .post-row .title a:hover{color:#0056b3;text-decoration:underline;}
-.post-row .cat{margin-left:.5rem;}
+.post-row .cat{margin-left:.5rem;flex-shrink:0;}
 .post-row .cat a{color:#666;}
 
 
