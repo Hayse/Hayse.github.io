@@ -5,6 +5,6 @@
   </nav>
 </section></header>
 <header style="background:#03a7dd;color:#fff;"><section>
-  <h1>Everybody, everything, anytime</h1>
-  <p>Good good study, day day up! The journey of life, constantly seeking</p>
+  <h1>{{ page.title | default: site.title }}</h1>
+  <p>{{ page.description | default: site.description }}</p>
 </section></header>

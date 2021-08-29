@@ -1,7 +1,18 @@
 ---
 title: Life
 description: posts index with life
-donav: 2
+donav: 3
 ---
 
-Here is life index.
+{%- assign catAt = "life" -%}
+{% for post in site.categories[catAt] %}
+      <div class="post-row">
+        <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
+        <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+        <div class="cat">
+          {% for tag in post.tags -%}
+          <a href="/Tags.html#{{ tag | capitalize }}">{{ tag | capitalize }}</a>
+          {%- endfor %}
+        </div>
+      </div>
+{% endfor %}
