@@ -1,7 +1,14 @@
 ---
 title: Links
-description: posts index with links
+description: Exchange link and Website navigation.
 donav: 30
 ---
 
-Here is links page.
+{% for tag in site.data.links  -%}
+  <h2>{{ tag.part | capitalize }}</h2>
+  <div class="post-row">
+  {%- for link in tag.sites %}
+      <a href="{{ link.url }}" class="link">{{ link.name }}</a>
+  {%- endfor %}
+  </div>
+{%- endfor %}
