@@ -1,64 +1,25 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "zh-CN" }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="{{ site.author | default: site.github.repository_name }}" />
-  <meta name="description" content="Blog for Hayse. Life, Study, Worker, all in one.{{ site.description | default: site.github.project_tagline }}">
-  <meta name="keywords" content="{{ site.keywords | default: site.github.repository_name }}"/>
-  <title>Hayse BLOG</title>
-  <link rel="icon" href="favicon.ico" />
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
-  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <style>
-  *{box-sizing: border-box;line-height:160%;}
-  html,body{width:100%;margin:0;padding:0;background:#dbdbdb;color:#212529;font-size:100%;position:relative;}
-  section{padding:1rem;}
-  a#logo{color:#fff;text-decoration:none;font-size:1.3rem;}
-  nav>a{color:#999; text-decoration:none;font-size:1rem;margin-left:1rem;}
-  main{background:#fff;}
-  footer{text-align:center;}
+---
+title: Everybody, everything, anytime
+description: Good good study, day day up! The journey of life, constantly seeking
+layout: default
+---
 
-  @media (max-width: 40.063rem) {/* 小屏幕CSS */
-    a#logo{display:block;width:7rem;margin:0 auto;}
-    nav{border-top:1px dashed #555;}
-  }
-  @media (min-width: 40.063rem) {/* 平板及大屏幕CSS */
-    section{margin:0 auto;max-width: 62.5rem;}
-    nav{display:inline-block;margin-top:0.4rem;float:right;}
-    nav>a{margin-left:1rem;}
-  }
-  </style>
-</head>
-<body>
-  <header name="top" style="background:#343a40;color:#fff;"><section>
-    <a href="/" id="logo">Blog Notes</a>
-    <nav>
-      <a href="/">Life</a>
-      <a href="/">Study</a>
-      <a href="/">Worker</a>
-      <a href="/">Tags</a>
-      <a href="/">Links</a>
-      <a href="/">Contact</a>
-    </nav>
-  </section></header>
-  <header style="background:#03a7dd;color:#fff;"><section>
-    <h1>Everybody, anytime, everything</h1>
-    <p>Good good study, day day up! The journey of life, constantly seeking</p>
-  </section></header>
-  <main><section>
-    <div style="text-align:center;height:40rem;">
-        <a href="./another.html">Link to another page.</a>
-
-    </div>
-  </section></main>
-  <footer><section>
-    <a href="#top">Goto Top</a>
-    <p>Used pure.css and jekyll with github.pages</p>
-  </section></footer>
-  <script src="./assets/js/ggk.js"></script>
-</body>
-</html>
+  {% for post in site.posts  -%}
+    {%- capture post_year %}{{ post.date | date: "%Y" }}{% endcapture -%}
+    {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
+    {%- capture post_next_year %}{{ post.next.date | date: "%Y" }}{% endcapture -%}
+    {%- if forloop.first or post_next_year != post_year -%}
+    <h2 id="{{post_year}}">{{post_year}}</h2>
+    {%- endif %}
+        <div class="post-row">
+          <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
+          <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+          <div class="categories">
+            {% for categorie in post.categories -%}
+            <a href="/{{ categorie }}.html">{{ categorie }}</a>
+            {%- endfor %}
+          </div>
+        </div>
+    {%- if forloop.last or post_previous_year != post_year %}
+    {%- endif %}
+  {%- endfor %}
