@@ -1,5 +1,5 @@
 ---
-title: 扬帆起航
+title: Blog start
 description: Blog start 2021-8-8
 category: life
 tags: [blog]

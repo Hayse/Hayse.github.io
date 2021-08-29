@@ -34,14 +34,15 @@ body {
 }
 
 .highlighter-rouge{background:#333;margin:.5rem;padding:.2rem 1rem;overflow-x:auto;}
-code.highlighter-rouge{background:#bbb;padding:.4rem;line-height:180%;}
+code.highlighter-rouge{background:#bbb;padding:.1rem .4rem;}
 
 section{padding:1rem;margin:0 auto;max-width: 680px;}
+main img{display:block;max-width:100%;height:auto;}
 a#logo{color:#fff;text-decoration:none;font-size:1.3rem;}
 nav>a{color:#999; text-decoration:none;font-size:1rem;margin-left:1rem;display:inline-block;}
 nav:first-child{margin-left:0;}
 main{background:#fff;}
-main>section{min-height:20rem;}
+main>section{min-height:48rem;}
 footer{text-align:center;}
 
 @media (max-width: 40.063rem) {/* 小屏幕CSS */
