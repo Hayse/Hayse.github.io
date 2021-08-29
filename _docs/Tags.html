@@ -5,8 +5,8 @@ donav: 20
 ---
 
 {% for tag in site.tags  -%}
-  <h2 id="{{ tag | capitalize }}">{{ tag | capitalize }}</h2>
-  {%- for post in tag.posts %}
+  <h2 id="{{ tag[0] | capitalize }}">{{ tag[0] | capitalize }}</h2>
+  {%- for post in tag[1] %}
       <div class="post-row">
         <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
         <span class="title"><a href="{{ post.url }}">{{ post.title }}</a></span>
