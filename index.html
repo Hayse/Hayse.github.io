@@ -9,7 +9,7 @@ layout: default
   {%- capture post_previous_year %}{{ post.previous.date | date: "%Y" }}{% endcapture -%}
   {%- capture post_next_year %}{{ post.next.date | date: "%Y" }}{% endcapture -%}
   {%- if forloop.first or post_next_year != post_year -%}
-  <h2 id="{{post_year}}">{{post_year}}</h2>
+  <h3 id="{{post_year}}">{{post_year}}</h3>
   {%- endif %}
       <div class="post-row">
         <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>
