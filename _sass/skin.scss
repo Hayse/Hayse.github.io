@@ -50,9 +50,9 @@ footer{text-align:center;}
 .post-row .title{overflow:hidden;text-overflow:ellipsis;flex-grow:1;}
 .post-row .title a{color:#007bff;text-decoration:none;}
 .post-row .title a:hover{color:#0056b3;text-decoration:underline;}
-.post-row .cat{margin-left:.5rem;flex-shrink:0;}
-.post-row .cat a{color:#666;}
-
+.post-row .cat{flex-shrink:0;}
+.post-row .cat a{color:#666;margin-left:.6rem;}
+.post-row .cat a:hover{text-decoration:underline;}
 
 
 @media (max-width: 40.063rem) {/* 小屏幕CSS */
