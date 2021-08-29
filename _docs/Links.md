@@ -15,7 +15,7 @@ LOGO：{{ site.domainUrl }}{{ site.baseurl }}/favicon.ico
 
 {% for tag in site.data.links  -%}
   <h3>{{ tag.part | capitalize }}</h3>
-  <div class="post-row">
+  <div class="links">
   {%- for link in tag.sites %}
       <a href="{{ link.url }}" target="_blank" class="link">{{ link.name }}</a>
   {%- endfor %}
