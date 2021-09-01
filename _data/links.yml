@@ -1,12 +1,3 @@
-- part: 友情交换链
-  sites:
-  - name: TMaize Blog
-    url: http://blog.tmaize.net/
-  - name: Tenda Wifi
-    url: http://tendawifi.com/
-  - name: 菲美生物
-    url: https://shop3n44150l69w82.1688.com/
-
 - part: 头部常用
   sites:
   - name: 百度Baidu
@@ -73,10 +64,14 @@
     url: https://book.cakephp.org/4/en/index.html
   - name: Laravel
     url: https://learnku.com/laravel/docs
-    
-    
-    
-    
+- part: 友情交换链
+  sites:
+  - name: TMaize Blog
+    url: http://blog.tmaize.net/
+  - name: Tenda Wifi
+    url: http://tendawifi.com/
+  - name: 菲美生物
+    url: https://shop3n44150l69w82.1688.com/
     
   - name: 你的位置
     url: /
