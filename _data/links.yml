@@ -7,7 +7,7 @@
   - name: 菲美生物
     url: https://shop3n44150l69w82.1688.com/
 
-- part: 头部第一站
+- part: 头部常用
   sites:
   - name: 百度Baidu
     url: https://www.baidu.com/
@@ -29,6 +29,10 @@
     url: https://www.aliyun.com/
   - name: 华为云
     url: https://cloud.huawei.com/
+  - name: 163邮箱
+    url: http://mail.163.com/
+  - name: QQ邮箱
+    url: http://mail.qq.com/
   - name: 12306
     url: https://www.12306.cn/
 
@@ -51,12 +55,24 @@
   - name: 雪球
     url: http://xueqiu.com/
 
-- part: 邮箱
+- part: 学习教程
   sites:
-  - name: 163邮箱
-    url: http://mail.163.com/
-  - name: QQ邮箱
-    url: http://mail.qq.com/
+  - name: 菜鸟教程
+    url: https://www.runoob.com/
+  - name: Bootstrap
+    url: https://v5.bootcss.com/docs/utilities/background/
+  - name: PureCSS
+    url: https://purecss.io/
+  - name: WordPress
+    url: https://cn.wordpress.org/
+  - name: Typecho
+    url: http://typecho.org/
+  - name: CodeIgniter
+    url: https://codeigniter.org.cn/user_guide/general/index.html
+  - name: CakePHP
+    url: https://book.cakephp.org/4/en/index.html
+  - name: Laravel
+    url: https://learnku.com/laravel/docs
     
     
     
