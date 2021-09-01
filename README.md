@@ -1,5 +1,7 @@
 # Pages-themes
 
+if you like theme, fork tag V1.0
+
 Text can be **bold**, _italic_,  ~~strikethrough~~ or `keyword`.
 
 ## Welcome to GitHub Pages
