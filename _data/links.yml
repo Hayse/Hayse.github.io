@@ -64,6 +64,9 @@
     url: https://book.cakephp.org/4/en/index.html
   - name: Laravel
     url: https://learnku.com/laravel/docs
+  - name: Github
+    url: https://github.com/
+
 - part: 友情交换链
   sites:
   - name: TMaize Blog

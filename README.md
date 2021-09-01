@@ -2,8 +2,6 @@
 
 Text can be **bold**, _italic_,  ~~strikethrough~~ or `keyword`.
 
-[Link to another page](./another-page.html).
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Hayse/hayse.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
