@@ -8,7 +8,7 @@ donav: 50
 
 > Hello 陌生人，欢迎访问 {{ site.title }}
 
-该博客托管于 [GitHub Page](https://pages.github.com/)，国内访问因某些原因不保证最优的访问速度。
+该博客托管于 [GitHub](https://github.com/) [Page](https://pages.github.com/)，国内访问因某些原因不保证最优的访问速度。
 为提高访问速度，主题采用 [PureCSS](https://purecss.io/) 尽可能小的原始设计。
 为保证显示效果，请使用最新版本[浏览器](https://www.mozilla.org/)访问
 
