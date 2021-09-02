@@ -3,8 +3,8 @@ title: Tags
 description: Tags of posts summary.
 donav: 20
 ---
-
-{% for tag in site.tags  -%}
+{%- assign tags = site.tags | sort -%}
+{% for tag in tags  -%}
   <h3 id="{{ tag[0] | capitalize }}">{{ tag[0] | capitalize }}</h3>
   {%- for post in tag[1] %}
       <div class="post-row">
