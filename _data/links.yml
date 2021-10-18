@@ -54,6 +54,8 @@
     url: https://v5.bootcss.com/docs/utilities/background/
   - name: PureCSS
     url: https://purecss.io/
+  - name: Milligram
+    url: https://milligram.io
   - name: WordPress
     url: https://cn.wordpress.org/
   - name: Typecho
@@ -80,8 +82,7 @@
     url: http://blog.tmaize.net/
   - name: Tenda Wifi
     url: http://tendawifi.com/
-  - name: 菲美生物
-    url: https://shop3n44150l69w82.1688.com/
+
     
   - name: 你的位置
     url: /
