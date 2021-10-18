@@ -4,7 +4,7 @@ description: Whatever is worth doing is worth doing well.
 donav: 50
 ---
 
-# 关于我
+# About
 
 > Hello 陌生人，欢迎访问 {{ site.title }}
 
