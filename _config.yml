@@ -9,7 +9,7 @@ title: Hayse Blog
 keywords: Blog,Notes
 description: Blog for Hayse. Life, Study, Worker, all in one.
 author: Hayse
-footerText: Used pure.css and jekyll with github.pages
+footerText: Used pure.css and jekyll with <a href="https://github.com/">github</a>.pages
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
